@@ -1,6 +1,6 @@
 import React from 'react'
-import {FaMinus, FaTimes} from 'react-icons/fa';
-import {useState} from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { useState } from 'react';
 
 function Nav() {
     const[isClicked, setIsClicked] = useState(false);
@@ -21,7 +21,7 @@ function Nav() {
                     <li className='px-4 my-2 text-violet-900 text-base'><a href="#contact">Contact</a></li>
                 </ul>
                 <button className='w-[30px] h-[30px] bg-transparent md:hidden' onClick={handleClick}>
-                    {!isClicked ? <FaMinus /> : <FaTimes />}
+                    {!isClicked ? <FaBars /> : <FaTimes />}
                 </button>
             </div>
         </header>
