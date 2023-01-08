@@ -3,7 +3,7 @@ import { certifications } from './ProfileData';
 
 function Certifications() {
   return (
-    <section id='certification' className='bg-none py-20 w-screen h-fit'>
+    <section id='certification' className='bg-none px- 6 py-20 w-screen h-fit'>
         <div>
             <h1 className='text-xl text-blue-900 text-center my-5'>CERTIFICATIONS</h1>
             <div className='w-full  h-fit flex flex-col md:flex-row py-2'>

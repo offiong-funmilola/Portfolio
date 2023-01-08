@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <div className='w-screen h-[60vh] bg-violet-900 flex flex-col justify-center py-8 items-center md:flex-row md:justify-between '>
+    <div className='w-screen h-[60vh] bg-violet-900 flex flex-col justify-center px-6 py-8 items-center md:flex-row md:justify-between '>
         <h1 className='text-4xl fony-bold bg-transparent text-white text-left pb-5 md:mb-0 md: h-[100px]'>Funmi O.</h1>
         <div className='flex w-fit h-fit flex justify-center items-center'>
             <div className='text-base text-white bg-transparent w-[150px] h-[100px]'>
