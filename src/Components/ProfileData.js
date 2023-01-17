@@ -4,27 +4,31 @@ export const projects = [
         title: "Product landing page", 
         image: "/assets/ProductLanding.png",
         description: "Product landing page project with HTML5 and CSS3",
-        link:  "https://offiong-funmilola.github.io/practice-project-1-WTF/"
+        link1:  "https://offiong-funmilola.github.io/practice-project-1-WTF/",
+        link2: "https://github.com/offiong-funmilola/practice-project-1-WTF"
     },
     {
         id: 2, title: "Catty Music", 
         image: "/assets/MusicApp.png",
         description: "Project built with CSS flex only-practicing CSS flex",
-        link: " https://offiong-funmilola.github.io/CattyMusic/"
+        link1: " https://offiong-funmilola.github.io/CattyMusic/",
+        link2: "https://github.com/offiong-funmilola/CattyMusic"
     },
     {
         id: 3,
         title: "Todo Application", 
         image: "/assets/TodoApp.png",
         description: "Practicing interactive site with javascript incoporated with HTML5 and CSS",
-        link: " https://offiong-funmilola.github.io/Todo-Application/"
+        link1: " https://offiong-funmilola.github.io/Todo-Application/",
+        link2: "https://github.com/offiong-funmilola/Todo-Application"
     },
     {
         id: 4,
         title: "Review App", 
         image: "/assets/ReviewApp.png",
         description: "practice project using react js as a library",
-        link: "https://lucky-druid-746325.netlify.app/"
+        link1: "https://lucky-druid-746325.netlify.app/",
+        link2: "https://github.com/offiong-funmilola/Review-Application"
     },
     
 ]
@@ -33,7 +37,7 @@ export const certifications = [
     id: 1,
     title: "Programming with Javascript",
     image: "/assets/certificate1.png",
-    link: "https://www.coursera.org/account/accomplishments/verify/UUABHGY5BA63"
+    link1: "https://www.coursera.org/account/accomplishments/verify/UUABHGY5BA63"
     },
     {
     id: 1,
