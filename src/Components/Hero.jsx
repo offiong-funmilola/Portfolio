@@ -3,15 +3,25 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='w-screen max-h-fit bg-gray-100 px-6 py-8 md:flex md:flex-row md:h-screen'>
-        <div className='w-full h-52 bg-transparent border-none flex flex-col md:w-1/2 md:justify-center md:h-full'>
-          <h1 className='font-bold text-5xl md:text-4xl lg:text-6xl'>Hi, I am Funmi, a frontend developer</h1>
-          <h2 className='font-bold bg-violet-900 w-[120px] h-[50px] my-6 flex items-center justify-center text-base text-white md:mt-14'>Hire me</h2>
+  <>
+    <div className="card lg:card-side bg-base-100 shadow-xl h-scren w-screen z-0">
+        <div className="card-body h-96 shrink-0 grow-0 lg:grow flex flex-col justify-center items-center lg:mt-16 xl:mt-48">
+          <div className="card-title text-center flex flex-col justify-center items-center font-bold">
+            <p className='text-5xl'>Hi, I am Funmi,</p> 
+            <p  className='text-5xl mt-3'>a frontend developer</p>
+          </div>
+          <div className="card-actions mt-5">
+            <a href="#contact">
+              <button className="btn btn-primary bg-violet-900 text-lg">Hire me</button>
+            </a> 
+          </div>
         </div>
-        <div className={'w-full h-screen rounded-3xl md:w-1/2 md:h-full hero-image'} style={{backgroundImage:`url(/assets/heroimage.jpg)`}}>
-        
-        </div>
+        <figure>
+          <img src="/assets/heroimage2.jpg" alt="Hero"/>
+        </figure>
     </div>
+
+  </> 
   )
 }
 

@@ -3,21 +3,29 @@ import { certifications } from './ProfileData';
 
 function Certifications() {
   return (
-    <section id='certification' className='bg-none px- 6 py-20 w-screen h-fit'>
-        <div className='w-full h-full flex flex-col justify-center items-center'>
-            <h1 className='text-xl text-blue-900 mb-5'>CERTIFICATIONS</h1>
-            <div className='w-11/12 h-fit flex flex-col justify-center items-center md:flex-row py-2'>
+    <section id='certification' className='w-screen h-fit p-10'>
+        <div className='w-full h-full flex flex-col'>
+            <h2 className='self-center text-violet-900 text-4xl mb-10'>CERTIFICATIONS</h2>
+            <div className='h-11/12 flex flex-col md:flex-row justify-start items-center'>
                 {certifications.map(certification => (
-                    <a href={certification.link} key={certification.id} className='w-full h-[350px] py-5 mb-8 md:mb-0 md:w-1/2 md:h-[500px] md:h-full px-5'>
-                        <div className='w-full h-full cert-image' style={{backgroundImage: `url(${certification.image})`}}></div>
-                        <p className='text-2xl mt-[5px]'>{certification.title}</p>
-                    </a>
+                    <div className="card w-full h-full md:w-1/2 flex justify-center items-center">
+                        <fiqure className='w-11/12 md:w-full'>
+                            <a href={certification.link} target='_blank' rel="noreferrer">
+                                <img src={certification.image} alt=''></img>
+                            </a>
+                        </fiqure>
+                    <div className="card-body">
+                      <h2 className="card-title">{certification.title}</h2>
+                    </div>
+                  </div>
                 ))}
             </div>
         </div>
+        
     </section>
     
   )
 }
 
 export default Certifications;
+

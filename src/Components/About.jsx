@@ -1,20 +1,16 @@
 import React from 'react'
 import { about } from './ProfileData';
-import { skills } from './ProfileData';
+
 
 function About() {
   return (
-    <section id='about' className='bg-gray-50 h-screen w-screen px-6 py-8 flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center'>
-        <div className='bg-transparent flex w-full h-1/2 flex-col justify-center flex-start md:w-3/4 md:h-full md:pr-24'>
-            <h1 className='text-blue-900 text-xl mb-5'>- ABOUT ME</h1>
+    <section id='about' className='bg-gray-50 h-96 w-screen'>
+        <div className='bg-transparent w-full h-full p-10 flex flex-col justify-center items-center'>
+          <h1 className=' text-violet-900 text-4xl mb-4'>- ABOUT ME</h1>
+          <div className='w-3/4 text-2xl flex items-center'>
             <p>{about}</p>
-        </div>
-        <div className='bg-transparent w-full h-1/2 flex flex-col justify-center items-start md:items-start md:w-1/4 md:h-full md:flex-start'>
-            <h1 className='text-blue-900 text-xl mb-5 text-left'>- SKILLS</h1>
-            <ul className='flex flex-col item-center'>
-                {skills.map((item, index) => <li key={index}>{item}</li>)}
-            </ul>
-        </div>
+          </div>    
+        </div> 
     </section>
   )
 }

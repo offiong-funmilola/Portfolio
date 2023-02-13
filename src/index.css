@@ -8,10 +8,15 @@
 }
 
 .hero-image, 
-.cert-image,
 .project-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     min-height: 60vh;
+}
+.cert-image {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+
 }
