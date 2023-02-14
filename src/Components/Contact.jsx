@@ -1,7 +1,17 @@
-import React from 'react'
-import contact from '../assets/contact.jpg'
+import {useRef} from 'react';
+import contact from '../assets/contact.jpg';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+   
+    const form = useRef();
+
+    const handleSubmission = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_vduvvu8', 'template_su7p52d', form.current, 'qqz96FvLWg8V_I91L')
+        .then((result) => "Successful",
+        (error) => "Not Submitted");
+    }
   return (
     <section id='contact' className='w-screen h-screen'>
         <div style={{backgroundImage:`url(${contact})`}} className='relative w-full h-full bg-center bg-cover bg-no-repeat flex items-center justify-center'>
@@ -10,9 +20,9 @@ function Contact() {
                 <div className="w-full h-full flex flex-col items-center">
                     <h2 className='font-bold text-3xl'>Let's Talk</h2>
                     <div className='w-11/12 h-full flex flex-col items-center lg:justify-center'>
-                        <form className='w-full h-5/6 lg:h-3/4 lg:w-5/6 flex flex-col justify-center px-16 lg:px-10'>
+                        <form ref={form} onSubmit={handleSubmission} className='w-full h-5/6 lg:h-3/4 lg:w-5/6 flex flex-col justify-center px-16 lg:px-10'>
                             <label htmlFor='Name'className='text-xl font-semibold  text-violet-900'> Name
-                                <input type='text' name='Name' placeholder='Your Name' className='block w-full px-3 py-3 text-left mb-3 mt-2 border-b-2'/>
+                                <input type='text' name='name' placeholder='Your Name' className='block w-full px-3 py-3 text-left mb-3 mt-2 border-b-2'/>
                             </label>
                             <label htmlFor='email' className='text-xl font-semibold  text-violet-900'> Your email*
                                 <input type='email' name='email' placeholder='Your Email Address' className='block w-full px-3 py-3 text-left mb-3 mt-2 border-b-2'/>
