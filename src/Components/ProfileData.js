@@ -4,8 +4,8 @@ export const projects = [
         title: "Restuarant App", 
         image: "/assets/Restuarant.jpg",
         description: "A Restuarant site that allows people to book ahead, bilt with vanilla javascript",
-        link1: "https://lucky-druid-746325.netlify.app/",
-        link2: "https://github.com/offiong-funmilola/Review-Application"
+        link1: "https://offiong-funmilola.github.io/Resturant-App/",
+        link2: "https://github.com/offiong-funmilola/Resturant-App"
     },
     {
         id: 2, title: "Catty Music", 
@@ -17,10 +17,10 @@ export const projects = [
     {
         id: 3,
         title: "Todo Application", 
-        image: "/assets/Todo.jpg",
-        description: "Practicing interactive site with javascript incoporated with HTML5 and CSS",
-        link1: " https://offiong-funmilola.github.io/Todo-Application/",
-        link2: "https://github.com/offiong-funmilola/Todo-Application"
+        image: "/assets/reacttodo.jpeg",
+        description: "Practicing state management using useReducer hook",
+        link1: " https://lustrous-dodol-b39750.netlify.app/",
+        link2: "https://github.com/offiong-funmilola/React-ToDo-App"
     },
     {
         id: 4,
@@ -41,9 +41,9 @@ export const certifications = [
     },
     {
     id: 2,
-    title: "React Basics",
-    image: "/assets/Certificateimage2.png",
-    link: "https://www.coursera.org/account/accomplishments/certificate/YRG26ZTWN4RB"
+    title: "Advanced React",
+    image: "/assets/Advancedreact.jpeg",
+    link: "https://www.coursera.org/account/accomplishments/certificate/CUUHCKY8WWKE"
     }
 ]
 export const skills = ["HTML 5", "CSS 3", "Javascript", "React", "Tailwind CSS"];

@@ -19,12 +19,12 @@ function Projects() {
                             <div className='flex'>
                                 <div className="card-actions mr-3">
                                     <a href={project.link1} target='_blank' rel="noreferrer">
-                                        <button className="btn btn-primary text-base">Source live</button>
+                                        <button className="btn btn-primary text-base">Preview</button>
                                     </a>
                                 </div>
                                 <div className="card-actions">
                                     <a href={project.link2} target='_blank' rel="noreferrer">
-                                        <button className="btn btn-primary text-base">Source code</button>
+                                        <button className="btn btn-primary text-base">Code</button>
                                     </a>
                                 </div>
                             </div>
