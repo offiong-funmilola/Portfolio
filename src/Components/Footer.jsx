@@ -15,7 +15,7 @@ function Footer() {
             <div className='text-base text-white bg-transparent md:w-[250px] md:h-[100px]'>
                 <h2 className='mb-2 text-xl md:text-2xl'> CONTACTS</h2>
                 <a href="mailto:fawolefunmilola2@gmail.com" className='block text-lg'>fawolefunmilola2@gmail.com</a>
-                <a href="tel:+2347066296861" className='block text-lg'>+2347066296861</a>
+                <a href="tel:+2347066296861" className='block text-lg'>+4917655260867</a>
             </div>
         </div>
 
