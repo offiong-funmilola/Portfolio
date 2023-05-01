@@ -3,16 +3,16 @@ export const projects = [
         id: 1,
         title: "Restuarant App", 
         image: "/assets/Restuarant.jpg",
-        description: "A Restuarant site that allows people to book ahead, bilt with vanilla javascript",
+        description: "A Restuarant site that allows people to book ahead, built with vanilla javascript",
         link1: "https://offiong-funmilola.github.io/Resturant-App/",
         link2: "https://github.com/offiong-funmilola/Resturant-App"
     },
     {
-        id: 2, title: "Catty Music", 
-        image: "/assets/Music.jpg",
-        description: "Project built with CSS flex only-practicing CSS flex",
-        link1: " https://offiong-funmilola.github.io/CattyMusic/",
-        link2: "https://github.com/offiong-funmilola/CattyMusic"
+        id: 2, title: "Calculator", 
+        image: "/assets/calculator.jpeg",
+        description: "A simple calculator Project built with vanilla javascript",
+        link1: "https://classy-conkies-a38f99.netlify.app/",
+        link2: "https://github.com/offiong-funmilola/Calculator"
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ export const projects = [
         id: 4,
         title: "Review App", 
         image: "/assets/Review.jpg",
-        description: "practice project using react js as a library",
+        description: "Review App, that allows clients to review the products and services of a company ",
         link1: "https://lucky-druid-746325.netlify.app/",
         link2: "https://github.com/offiong-funmilola/Review-Application"
     },
