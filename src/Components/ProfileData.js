@@ -1,11 +1,11 @@
 export const projects = [
     {
         id: 1,
-        title: "Restuarant App", 
-        image: "/assets/Restuarant.jpg",
-        description: "A Restuarant site that allows people to book ahead, built with vanilla javascript",
-        link1: "https://offiong-funmilola.github.io/Resturant-App/",
-        link2: "https://github.com/offiong-funmilola/Resturant-App"
+        title: "Simple Banking System Implementation", 
+        image: "/assets/tsf.png",
+        description: "A Banking System Implementation built with React Js, powered by firebase backend. Allows customers to check their account balnace, make transactions and see their transaction details",
+        link1: "https://fanciful-pithivier-b94539.netlify.app/",
+        link2: "https://github.com/offiong-funmilola/Hephzibah-Banking-TSF-Task2"
     },
     {
         id: 2, title: "Calculator", 
@@ -46,5 +46,5 @@ export const certifications = [
     link: "https://www.coursera.org/account/accomplishments/certificate/CUUHCKY8WWKE"
     }
 ]
-export const skills = ["HTML 5", "CSS 3", "Javascript", "React", "Tailwind CSS"];
+export const skills = ["HTML 5", "CSS 3", "Javascript", "React", "Tailwind CSS", "Firebase"];
 export const about = "I am a Front-end Engineer with strong analytic background and desire to build functional and aesthetically pleasing user interfaces without sacrificing business objectives. Ability to deliver well-structured pixel-perfect implementation of user interface/user experience designs."
