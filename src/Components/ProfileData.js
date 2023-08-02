@@ -24,11 +24,11 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Review App", 
-        image: "/assets/Review.jpg",
-        description: "Review App, that allows clients to review the products and services of a company ",
-        link1: "https://lucky-druid-746325.netlify.app/",
-        link2: "https://github.com/offiong-funmilola/Review-Application"
+        title: "Weather Application", 
+        image: "/assets/weather.png",
+        description: "The Weather application allow users to have access to weather data throughout the globe, so as to make informed decisions. ",
+        link1: "https://sunny-gnome-616413.netlify.app/",
+        link2: "https://github.com/offiong-funmilola/Weather-App"
     },
    
 ]
