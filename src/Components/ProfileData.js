@@ -16,11 +16,11 @@ export const projects = [
     },
     {
         id: 3,
-        title: "Todo Application", 
-        image: "/assets/reacttodo.jpeg",
-        description: "Practicing state management using useReducer hook",
-        link1: " https://lustrous-dodol-b39750.netlify.app/",
-        link2: "https://github.com/offiong-funmilola/React-ToDo-App"
+        title: "Messenger Application", 
+        image: "/assets/messenger.png",
+        description: "This is a simple mesenger application built with React and firebase",
+        link1: "https://capable-praline-4278cd.netlify.app/",
+        link2: "https://github.com/offiong-funmilola/Messenger-application"
     },
     {
         id: 4,
