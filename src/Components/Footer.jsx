@@ -9,8 +9,8 @@ function Footer() {
             <div className='text-base text-white bg-transparent md:w-[150px] md:h-[100px]'>
                 <h2 className='mb-2 text-xl md:text-2xl'> SOCIALS</h2>
                 <a href="https://linkedin.com/in/funmilola-offiong" className='block text-lg'>Linkedin</a>
-                <a href="https://facebook/fawolefunmilola" className='block text-lg'>Facebook</a>
-                <a href="https://twitter.com/offiongfunmilo2" className='block text-lg'>Twitter</a>
+                {/* <a href="https://facebook/fawolefunmilola" className='block text-lg'>Facebook</a>
+                <a href="https://twitter.com/offiongfunmilo2" className='block text-lg'>Twitter</a> */}
             </div>
             <div className='text-base text-white bg-transparent md:w-[250px] md:h-[100px]'>
                 <h2 className='mb-2 text-xl md:text-2xl'> CONTACTS</h2>

@@ -1,16 +1,30 @@
 import {useRef} from 'react';
 import contact from '../assets/contact.jpg';
 import emailjs from '@emailjs/browser';
+import { useState } from 'react';
+import Modal from './Modal';
+
 
 function Contact() {
-   
+   const [show, setShow] = useState(false)
+   const [message, setMessage] = useState('')
+   const [title, setTittle] = useState('')
     const form = useRef();
     
     const handleSubmission = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_vduvvu8', 'template_0d5mt16', form.current, 'qqz96FvLWg8V_I91L')
-        .then((result) => alert("Successful"),
-        (error) => alert("Not Submitted"));
+        .then((result) => {
+            setShow(true)
+            setTittle('Hello!')
+            setMessage('Thanks for the contact')
+        },
+        (error) => {
+            setShow(true)
+            setTittle('Oops!')
+            setMessage('Something went wrong')
+        },
+        );
         e.target.reset();
     }
   return (
@@ -40,6 +54,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <Modal show={show} title={title} message={message} setShow={setShow}/>
         </div>
     </section>
   )
