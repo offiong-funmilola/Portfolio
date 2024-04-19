@@ -1,3 +1,7 @@
+import { FaHtml5, FaCss3Alt, FaReact, FaGit } from "react-icons/fa";
+import { TbBrandJavascript, TbApi, TbBrandFirebase } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
+
 export const projects = [
     {
         id: 1,
@@ -45,5 +49,38 @@ export const certifications = [
     link: "https://www.coursera.org/account/accomplishments/certificate/CUUHCKY8WWKE"
     }
 ]
-export const skills = ["HTML 5", "CSS 3", "Javascript", "React", "Tailwind CSS", "Firebase", "Git", "REST API"];
+export const skills = [
+    {
+        title: "HTML 5",
+        icon: FaHtml5,
+    },
+    {
+        title: "CSS 3",
+        icon: FaCss3Alt
+    },
+    {
+        title: "Javascript",
+        icon: TbBrandJavascript
+    },
+    {
+        title: "React",
+        icon: FaReact,
+    },
+    {
+        title: "Tailwind CSS",
+        icon: SiTailwindcss,
+    },
+    {
+        title: "Firebase",
+        icon: TbBrandFirebase,
+    },
+    {
+        title: "Git",
+        icon: FaGit
+    },
+    {
+        title: "REST API",
+        icon: TbApi
+    },
+];
 export const about = "I am a Front-end Engineer with strong analytic background and desire to build functional and aesthetically pleasing user interfaces without sacrificing business objectives. I am able to deliver well-structured pixel-perfect implementation of user interface/user experience designs."
